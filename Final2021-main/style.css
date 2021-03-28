@@ -1,0 +1,60 @@
+h1, h2, h3, nav li {
+  font-family: 'Kiwi Maru', serif;
+
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.currency{
+  display: flex;
+  justify-content: space-between;
+}
+.left-currency{
+  display: flex;
+  align-items: center;
+}
+.right-icons{
+  align-items: flex-end;
+}
+.services{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1%;
+}
+.post{
+  display: flex;
+
+}
+.card{
+  display: flex;
+}
+.btn-primary{
+  background: #17a2b8;
+}
+.service{
+  background: #17a2b8;
+}
+li a{
+  text-decoration: none;
+  
+  color: #17a2b8;
+}
+ li a{
+  list-style: none;
+}
+@media screen and (max-width: 600px){
+  .services{
+    display: block;
+  }
+  .post{
+    margin-top: 20px;
+  }
+}
+
+
